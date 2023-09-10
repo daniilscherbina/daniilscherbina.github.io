@@ -23,12 +23,22 @@
 			<li><a href='../../index.html' title='Относительная ссылка на документ в директории двумя уровнями выше'>Относительная ссылка на документ в директории двумя уровнями выше</a></li>
 			
 			<li><a href='https://en.wikipedia.org/wiki/Java_(programming_language)#Class_libraries' title='Cсылка на фрагмент страницы стороннего сайта'>Cсылка на фрагмент страницы стороннего сайта</a></li>
-			<li><!--noindex--><a href='https://en.wikipedia.org/wiki/Java_(programming_language)' title='Cсылка запрещенная для индексации поисковиком Яндекс'>Cсылка запрещенная для индексации поисковиком Яндекс</a></li><!--/noindex-->
-			<li><!--noindex--><a href='https://en.wikipedia.org/wiki/C%2B%2B' rel='nofollow' title='Cсылка запрещенная для перехода поисковикам'>Cсылка запрещенная для перехода поисковикам</a></li><!--/noindex-->
-			
+
+			<li>
+				<map name="primary">
+					<area shape="circle" coords="75,75,75" href="https://en.wikipedia.org/wiki/CSS" title='ссылка на wiki страницу о css'/>
+					<area shape="rect" coords="0,0,500,150" href="https://en.wikipedia.org/wiki/HTML" title='ссылка на wiki страницу о html'/>
+				</map>
+				<img usemap="#primary" src="image_href_mask.png" />
+			</li>
 			
 			<li><a href='' id='fragment' title='Ссылка с пустым href'>Ссылка с пустым href</a></li>
 			<li><a title='Ссылка без href'>Ссылка без href</a></li>
+			
+			<li><!--noindex--><a href='https://en.wikipedia.org/wiki/Java_(programming_language)' title='Cсылка запрещенная для индексации поисковиком Яндекс'>Cсылка запрещенная для индексации поисковиком Яндекс</a></li><!--/noindex-->
+			<li><!--noindex--><a href='https://en.wikipedia.org/wiki/C%2B%2B' rel='nofollow' title='Cсылка запрещенная для перехода поисковикам'>Cсылка запрещенная для перехода поисковикам</a></li><!--/noindex-->
+			
+			<li><a title='Ссылка на файл на ftp сервере' href='ftp://filer:4zBPHkQEeP1EQV@ftpupload.net/htdocs/1673504644_flomaster-club-p-pochtalon-pechkin-risunok-krasivo-3.jpg'>Ссылка на файл на ftp сервере</a></li>
 		</ol>
 	</body>
 </html>
