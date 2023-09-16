@@ -1,5 +1,11 @@
 body {
 	margin: 0px;
+	background-color: #303030;
+	color: #AAAAAA;
+}
+
+img {
+	max-width: 960px;
 }
 
 #logo {
@@ -10,5 +16,24 @@ body {
 
 header {
 	padding: 10px;
-	background: gray;
+	background-color: #363636;
+}
+
+a {
+	color: #AAAAAA;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 16px;
+}
+
+main {
+	max-width: 960px;
+	margin: auto;
+}
+
+nav a {
+	color: #FFFFFF;
+	float: right;
 }
