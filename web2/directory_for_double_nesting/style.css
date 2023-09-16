@@ -28,8 +28,12 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 5px 10px;
 	font-size: 16px;
+}
+
+a:hover {
+	border-bottom: 1px solid #AAAAAA;
 }
 
 main {
@@ -51,12 +55,14 @@ li {
 }
 
 footer {
-	margin-top: 20px;
-	height: 100px;
+	height: auto;
+	padding: 20px;
 	background-color: #212121;
-	
+	text-align: center;
 }
 
 footer div {
-	width: 150px;
+	width: 250px;
+	margin: auto;
+	font-size: 20px;
 }
