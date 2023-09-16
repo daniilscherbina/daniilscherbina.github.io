@@ -4,10 +4,6 @@ body {
 	color: #AAAAAA;
 }
 
-img {
-	max-width: 960px;
-}
-
 #logo {
 	width: 100px;
 	float: left;
@@ -23,6 +19,15 @@ header h1 {
 	margin: 30px;
 }
 
+img {
+	width: 90%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
 a {
 	color: #AAAAAA;
 	text-decoration: none;
@@ -36,16 +41,6 @@ a:hover {
 	border-bottom: 1px solid #AAAAAA;
 }
 
-main {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-nav {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
 nav a {
 	color: #FFFFFF;
 }
@@ -71,9 +66,9 @@ table{
 	border: 1px solid #eee;
 	table-layout: fixed;
 	width: 100%;
-	margin: 40px 0;
 	border-collapse: collapse;
 	color: #DDDDDD;
+	margin: 40px 0;
 }
 
 table th {
@@ -95,4 +90,53 @@ table tbody tr:nth-child(odd){
 
 table tbody tr:nth-child(even){
 	background: #919191;
+}
+
+.table {
+	order: 1;
+}
+
+.list {
+	order: 2;
+}
+
+.form {
+	order: 3;
+}
+
+main {
+	padding: 20px;
+	max-width: 960px;
+}
+
+nav {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 960px) {
+
+	main {
+		margin: 0 auto;
+	}
+	
+	img {
+		width: 800px;
+	}
+	
+	.table {
+		order: 2;
+	}
+
+	.list {
+		order: 1;
+	}
+	
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
 }
