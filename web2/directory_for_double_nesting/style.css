@@ -19,6 +19,10 @@ header {
 	background-color: #363636;
 }
 
+header h1 {
+	margin: 30px;
+}
+
 a {
 	color: #AAAAAA;
 	text-decoration: none;
@@ -30,10 +34,29 @@ a {
 
 main {
 	max-width: 960px;
-	margin: auto;
+	margin: 0 auto;
 }
 
+nav {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
 nav a {
 	color: #FFFFFF;
-	float: right;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+footer {
+	margin-top: 20px;
+	height: 100px;
+	background-color: #212121;
+	
+}
+
+footer div {
+	width: 150px;
 }
