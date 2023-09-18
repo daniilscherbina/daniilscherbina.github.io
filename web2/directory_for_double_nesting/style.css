@@ -8,7 +8,7 @@ img {
 	max-width: 960px;
 }
 
-#logo {
+.logo {
 	width: 100px;
 	float: left;
 	margin-right: 10px;
@@ -36,7 +36,7 @@ a:hover {
 	border-bottom: 1px solid #AAAAAA;
 }
 
-main {
+.content {
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -55,15 +55,8 @@ li {
 }
 
 footer {
-	height: auto;
 	padding: 20px;
 	background-color: #212121;
-	text-align: center;
-}
-
-footer div {
-	width: 250px;
-	margin: auto;
 	font-size: 20px;
 }
 
