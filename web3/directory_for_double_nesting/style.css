@@ -96,6 +96,7 @@ table tbody tr:nth-child(even){
 }
 
 .form {
+	margin: 15px;
 	order: 3;
 }
 
