@@ -1,0 +1,137 @@
+body {
+	margin: 0px;
+	background-color: #303030;
+	color: #AAAAAA;
+}
+
+.logo {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+header {
+	padding: 10px;
+	background-color: #363636;
+}
+
+header h1 {
+	margin: 30px;
+}
+
+img {
+	width: 80%;
+	max-width: 800px;
+}
+
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+a {
+	color: #AAAAAA;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+a:hover {
+	border-bottom: 1px solid #AAAAAA;
+}
+
+nav a {
+	color: #FFFFFF;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+footer {
+	padding: 20px;
+	background-color: #212121;
+	font-size: 20px;
+}
+
+table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	color: #DDDDDD;
+	margin: 40px 0;
+}
+
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #414141;
+	border: 1px solid #616161;
+}
+
+table td{
+	padding: 5px 10px;
+	border: 1px solid #616161;
+	text-align: left;
+}
+
+table tbody tr:nth-child(odd){
+	background: #818181;
+}
+
+table tbody tr:nth-child(even){
+	background: #919191;
+}
+
+.table {
+	padding: 0 15px;
+	order: 1;
+}
+
+.list {
+	order: 2;
+}
+
+.form {
+	margin: 15px;
+	order: 3;
+}
+
+nav {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	text-align: right;
+}
+
+@media screen and (min-width: 800px) {
+	.content {
+		width: 100%;
+	}
+	
+	.table {
+		order: 2;
+	}
+
+	.list {
+		order: 1;
+	}
+	
+	nav {
+		margin-top: 0;
+		flex-direction: row;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
+	.title {
+		text-align: left;
+	}
+	
+}
