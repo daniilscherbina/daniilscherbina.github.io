@@ -3,347 +3,361 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<title>Лабораторная работа 3</title>
+		<title>Лабораторная работа 4</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
+		<div class='wrapper'>
+			<header class='header'>
+				<div class='container-fluid'>
+					<div class='row'>
+						<div class='d-flex flex-row mb-2 col-md-4 col-lg-6 p-2'>
+							<div class='d-flex align-items-center'>
+								<img id="logo" class="logo" src="logo.png" alt="Наш лого">
+								<h2 class='title p-2'>Лабораторная работа 4</h2>
+							</div>
+						</div>
+						<div class='col-md-8 col-lg-6 p-2'>
+							<nav class='d-flex flex-column flex-md-row justify-content-end'>
+								<a class='p-1'>Страница 1</a>
+								<a class='p-1'>Страница 2</a>
+								<a class='p-1'>Страница 3</a>
+								<a class='p-1'>Страница 4</a>
+								<a class='p-1'>Страница 5</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
 		
-		<header>
-			<img id="logo" class="logo" src="logo.png" alt="Наш лого">
-			<h1 class='title'>Лабораторная работа 3</h1>
-			<nav>
-				<a>Страница 1</a>
-				<a>Страница 2</a>
-				<a>Страница 3</a>
-				<a>Страница 4</a>
-				<a>Страница 5</a>
-			</nav>
-		</header>
-	
-		<main>
-			<div class='content'>
-				<div class="list">
-					<ul>
-						<li>
-							<a href="http://kubsu.ru/" title='Ссылка на сайт КубГУ'>
-								КубГУ
-							</a>
-						</li>
-						
-						<li>
-							<a href="https://kubsu.ru/" title='Ссылка на сайт КубГУ'>
-								КубГУ htpps
-							</a>
-						</li>
-						
-						<li>
-							<a href='http://kubsu.ru/' title='Ссылка на сайт КубГУ'>
-								<img class="pic" src='https://www.kubsu.ru/lib/images/kubgu.png' alt='Здание КубГУ'>
-							</a>
-						</li>
-						
-						<li>
-							<a href='/web1/directory_for_double_nesting/test_page' title='Сокращенная ссылка на документ в папке directory_for_double_nesting'>
-								Сокращенная ссылка на документ в папке directory_for_double_nesting
-							</a>
-						</li>
-						
-						<li>
-							<a href='/' title='Сокращенная ссылка на главную страницу'>
-								Сокращенная ссылка на главную страницу
-							</a>
-						</li>
-						
-						<li>
-							<a href='#fragment' title='Ссылка на фрагмент текущей страницы (направит к ссылке с пустым href)'>
-								Ссылка на фрагмент текущей страницы (направит к ссылке с пустым href)
-							</a>
-						</li>
-						
-						<li>
-							<a href='https://translate.yandex.ru/?source_lang=en&target_lang=ru&text=make_a_backup' title='Ссылка с тремя параметрами в url'>
-								Ссылка с тремя параметрами в url
-							</a>
-						</li>
-						
-						<li>
-							<a href='https://daniilscherbina.github.io/web1/directory_for_double_nesting/test_page?id=2147483647' title='Ссылка с параметрром id в url'>
-								Ссылка с параметрром id в url
-							</a>
-						</li>
-						
-						<li>
-							<a href='./test_page' title='Относительная ссылка на документ в папке directory_for_double_nesting (текущая директория)'>
-								Относительная ссылка на документ в папке directory_for_double_nesting (текущая директория)
-							</a>
-						</li>
-						
-						<li>
-							<a href='./about/index.html' title='Относительная ссылка на документ в директории about'>
-								Относительная ссылка на документ в директории about
-							</a>
-						</li>
-						
-						<li>
-							<a href='../index.html' title='Относительная ссылка на документ в директории выше'>
-								Относительная ссылка на документ в директории выше
-							</a>
-						</li>
-						
-						<li>
-							<a href='../../index.html' title='Относительная ссылка на документ в директории двумя уровнями выше'>
-								Относительная ссылка на документ в директории двумя уровнями выше
-							</a>
-						</li>
-						
-						<li>
-							Java — строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие его технологии распространяются по <a href='https://ru.wikipedia.org/wiki/GNU_General_Public_License' title='лицензия GPL'>лицензии GPL</a>.
-						</li>
-						
-						<li>
-							<a href='https://en.wikipedia.org/wiki/Java_(programming_language)#Class_libraries' title='Cсылка на фрагмент страницы стороннего сайта'>
-								Cсылка на фрагмент страницы стороннего сайта
-							</a>
-						</li>
-
-						<li>
-							<map name="primary">
-								<area shape="circle" coords="75,75,75" href="https://en.wikipedia.org/wiki/CSS" title='ссылка на wiki страницу о css' alt='ссылка на wiki страницу о css'>
-								<area shape="rect" coords="350,0,500,150" href="https://en.wikipedia.org/wiki/HTML" title='ссылка на wiki страницу о html' alt='ссылка на wiki страницу о html'>
-							</map>
-							<img usemap="#primary" src="image_href_mask.png" alt='Изображение выделяющее кликабельные области' title='Изображение выделяющее кликабельные области'>
-						</li>
-						
-						<li>
-							<a href='' id='fragment' title='Ссылка с пустым href'>
-								Ссылка с пустым href
-							</a>
-						</li>
-						
-						<li>
-							<a title='Ссылка без href'>
-								Ссылка без href
-							</a>
-						</li>
-						
-						<li>
-							<!--noindex-->
-								<a href='https://en.wikipedia.org/wiki/Java_(programming_language)' title='Cсылка запрещенная для индексации поисковиком Яндекс'>
-									Cсылка запрещенная для индексации поисковиком Яндекс
+			<main class='main'>
+				<div class='content d-flex flex-column m-md-auto p-2'>
+					<div class="list order-1 order-md-0 p-2">
+						<ul>
+							<li>
+								<a href="http://kubsu.ru/" title='Ссылка на сайт КубГУ'>
+									КубГУ
 								</a>
-							<!--/noindex-->
-						</li>
-						
-						<li>
-							<a href='https://en.wikipedia.org/wiki/C%2B%2B' rel='nofollow' title='Cсылка запрещенная для перехода поисковикам'>
-								Cсылка запрещенная для перехода поисковикам
-							</a>
-						</li>
-						
-						<li>
-							<ol>
-								<li>
-									<a href='' title='Ссылка с пустым href'>
-										Ссылка с пустым href
+							</li>
+							
+							<li>
+								<a href="https://kubsu.ru/" title='Ссылка на сайт КубГУ'>
+									КубГУ htpps
+								</a>
+							</li>
+							
+							<li>
+								<a href='http://kubsu.ru/' title='Ссылка на сайт КубГУ'>
+									<img class="pic" src='https://www.kubsu.ru/lib/images/kubgu.png' alt='Здание КубГУ'>
+								</a>
+							</li>
+							
+							<li>
+								<a href='/web1/directory_for_double_nesting/test_page' title='Сокращенная ссылка на документ в папке directory_for_double_nesting'>
+									Сокращенная ссылка на документ в папке directory_for_double_nesting
+								</a>
+							</li>
+							
+							<li>
+								<a href='/' title='Сокращенная ссылка на главную страницу'>
+									Сокращенная ссылка на главную страницу
+								</a>
+							</li>
+							
+							<li>
+								<a href='#fragment' title='Ссылка на фрагмент текущей страницы (направит к ссылке с пустым href)'>
+									Ссылка на фрагмент текущей страницы (направит к ссылке с пустым href)
+								</a>
+							</li>
+							
+							<li>
+								<a href='https://translate.yandex.ru/?source_lang=en&target_lang=ru&text=make_a_backup' title='Ссылка с тремя параметрами в url'>
+									Ссылка с тремя параметрами в url
+								</a>
+							</li>
+							
+							<li>
+								<a href='https://daniilscherbina.github.io/web1/directory_for_double_nesting/test_page?id=2147483647' title='Ссылка с параметрром id в url'>
+									Ссылка с параметрром id в url
+								</a>
+							</li>
+							
+							<li>
+								<a href='./test_page' title='Относительная ссылка на документ в папке directory_for_double_nesting (текущая директория)'>
+									Относительная ссылка на документ в папке directory_for_double_nesting (текущая директория)
+								</a>
+							</li>
+							
+							<li>
+								<a href='./about/index.html' title='Относительная ссылка на документ в директории about'>
+									Относительная ссылка на документ в директории about
+								</a>
+							</li>
+							
+							<li>
+								<a href='../index.html' title='Относительная ссылка на документ в директории выше'>
+									Относительная ссылка на документ в директории выше
+								</a>
+							</li>
+							
+							<li>
+								<a href='../../index.html' title='Относительная ссылка на документ в директории двумя уровнями выше'>
+									Относительная ссылка на документ в директории двумя уровнями выше
+								</a>
+							</li>
+							
+							<li>
+								Java — строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие его технологии распространяются по <a href='https://ru.wikipedia.org/wiki/GNU_General_Public_License' title='лицензия GPL'>лицензии GPL</a>.
+							</li>
+							
+							<li>
+								<a href='https://en.wikipedia.org/wiki/Java_(programming_language)#Class_libraries' title='Cсылка на фрагмент страницы стороннего сайта'>
+									Cсылка на фрагмент страницы стороннего сайта
+								</a>
+							</li>
+
+							<li>
+								<map name="primary">
+									<area shape="circle" coords="75,75,75" href="https://en.wikipedia.org/wiki/CSS" title='ссылка на wiki страницу о css' alt='ссылка на wiki страницу о css'>
+									<area shape="rect" coords="350,0,500,150" href="https://en.wikipedia.org/wiki/HTML" title='ссылка на wiki страницу о html' alt='ссылка на wiki страницу о html'>
+								</map>
+								<img usemap="#primary" src="image_href_mask.png" alt='Изображение выделяющее кликабельные области' title='Изображение выделяющее кликабельные области'>
+							</li>
+							
+							<li>
+								<a href='' id='fragment' title='Ссылка с пустым href'>
+									Ссылка с пустым href
+								</a>
+							</li>
+							
+							<li>
+								<a title='Ссылка без href'>
+									Ссылка без href
+								</a>
+							</li>
+							
+							<li>
+								<!--noindex-->
+									<a href='https://en.wikipedia.org/wiki/Java_(programming_language)' title='Cсылка запрещенная для индексации поисковиком Яндекс'>
+										Cсылка запрещенная для индексации поисковиком Яндекс
 									</a>
-								</li>
-								
-								<li>
-									<a title='Ссылка без href'>
-										Ссылка без href
-									</a>
-								</li>
-								
-								<li>
-									<!--noindex-->
-										<a href='https://en.wikipedia.org/wiki/Java_(programming_language)' title='Cсылка запрещенная для индексации поисковиком Яндекс'>
-											Cсылка запрещенная для индексации поисковиком Яндекс
+								<!--/noindex-->
+							</li>
+							
+							<li>
+								<a href='https://en.wikipedia.org/wiki/C%2B%2B' rel='nofollow' title='Cсылка запрещенная для перехода поисковикам'>
+									Cсылка запрещенная для перехода поисковикам
+								</a>
+							</li>
+							
+							<li>
+								<ol>
+									<li>
+										<a href='' title='Ссылка с пустым href'>
+											Ссылка с пустым href
 										</a>
-									<!--/noindex-->
-								</li>
-								
-								<li>
-									<a href='https://en.wikipedia.org/wiki/C%2B%2B' rel='nofollow' title='Cсылка запрещенная для перехода поисковикам'>
-										Cсылка запрещенная для перехода поисковикам
-									</a>
-								</li>
-							</ol>
-						</li>
-						
-						<li>
-							<a title='Ссылка на файл на ftp сервере' href='ftp://filer:4zBPHkQEeP1EQV@ftpupload.net/htdocs/1673504644_flomaster-club-p-pochtalon-pechkin-risunok-krasivo-3.jpg'>
-								Ссылка на файл на ftp сервере
-							</a>
-						</li>
-					</ul>
-				</div>
-				
-				<div class="table">
-					<table>
-						<tbody>
-							<tr>
-								<th>Color</th>
-								<th>Red</th>
-								<th>Green</th>
-								<th>Blue</th>
-							</tr>
-							<tr>
-								<td>Red</td>
-								<td>255</td>
-								<td>0</td>
-								<td>0</td>
-							</tr>
-							<tr>
-								<td>Green</td>
-								<td>0</td>
-								<td>255</td>
-								<td>0</td>
-							</tr>
-							<tr>
-								<td>Blue</td>
-								<td>0</td>
-								<td>0</td>
-								<td>255</td>
-							</tr>
-							<tr>
-								<td>Black</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-							</tr>
-							<tr>
-								<td>White</td>
-								<td>255</td>
-								<td>255</td>
-								<td>255</td>
-							</tr>
-							<tr>
-								<td>Gray</td>
-								<td>128</td>
-								<td>128</td>
-								<td>128</td>
-							</tr>
-							<tr>
-								<td>Brick 1</td>
-								<td colspan="3">Color in RGB</td>
-							</tr>
-							<tr>
-								<td colspan="3">Color in RGB</td>
-								<td>Brick 2</td>
-							</tr>
-							<tr>
-								<td>Brick 3</td>
-								<td colspan="3">Color in RGB</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				
-				<div class="form">
-					<form action="/" method="POST">
-						<label>
-							Ф.И.О:<br>
-							<input name="field-name-1">
-						</label>
-						<br>
-						
-						<label>
-							Телефон:<br>
-							<input type="tel" placeholder="(XXX)-XXX-XXXX" name="field-tel">
-						</label>
-						<br>
-
-						<label>
-							email:<br>
-							<input name="field-email" type="email" placeholder="Введите вашу почту">
-						</label>
-						<br>
-
-						<label>
-							Дата рождения:<br>
-							<input name="field-date" value="2019-08-13" type="date">
-						</label>
-						<br>
-
-						<label>
-							Биография:<br>
-							<textarea name="field-name-2"></textarea>
-						</label>
-						<br>
-
-						<label>
-							Любимый язык программирования:
+									</li>
+									
+									<li>
+										<a title='Ссылка без href'>
+											Ссылка без href
+										</a>
+									</li>
+									
+									<li>
+										<!--noindex-->
+											<a href='https://en.wikipedia.org/wiki/Java_(programming_language)' title='Cсылка запрещенная для индексации поисковиком Яндекс'>
+												Cсылка запрещенная для индексации поисковиком Яндекс
+											</a>
+										<!--/noindex-->
+									</li>
+									
+									<li>
+										<a href='https://en.wikipedia.org/wiki/C%2B%2B' rel='nofollow' title='Cсылка запрещенная для перехода поисковикам'>
+											Cсылка запрещенная для перехода поисковикам
+										</a>
+									</li>
+								</ol>
+							</li>
+							
+							<li>
+								<a title='Ссылка на файл на ftp сервере' href='ftp://filer:4zBPHkQEeP1EQV@ftpupload.net/htdocs/1673504644_flomaster-club-p-pochtalon-pechkin-risunok-krasivo-3.jpg'>
+									Ссылка на файл на ftp сервере
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class='order-0 order-md-1 p-2'>
+						<table>
+							<tbody>
+								<tr>
+									<th>Color</th>
+									<th>Red</th>
+									<th>Green</th>
+									<th>Blue</th>
+								</tr>
+								<tr>
+									<td>Red</td>
+									<td>255</td>
+									<td>0</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<td>Green</td>
+									<td>0</td>
+									<td>255</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<td>Blue</td>
+									<td>0</td>
+									<td>0</td>
+									<td>255</td>
+								</tr>
+								<tr>
+									<td>Black</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<td>White</td>
+									<td>255</td>
+									<td>255</td>
+									<td>255</td>
+								</tr>
+								<tr>
+									<td>Gray</td>
+									<td>128</td>
+									<td>128</td>
+									<td>128</td>
+								</tr>
+								<tr>
+									<td>Brick 1</td>
+									<td colspan="3">Color in RGB</td>
+								</tr>
+								<tr>
+									<td colspan="3">Color in RGB</td>
+									<td>Brick 2</td>
+								</tr>
+								<tr>
+									<td>Brick 3</td>
+									<td colspan="3">Color in RGB</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
+					<div class="form order-2 p-2">
+						<form action="/" method="POST">
+							<label>
+								Ф.И.О:<br>
+								<input name="field-name-1">
+							</label>
 							<br>
-							<select name="field-name-4[]" multiple="multiple">
-								<option value="Значение1">
-									Pascal
-								</option>
-								
-								<option value="Значение2">
-									C
-								</option>
-								
-								<option value="Значение3">
-									C++
-								</option>
-								
-								<option value="Значение4">
-									JavaScript
-								</option>
-								
-								<option value="Значение5">
-									PHP
-								</option>
-								
-								<option value="Значение6">
-									Python
-								</option>
-								
-								<option value="Значение7">
-									Java
-								</option>
-								
-								<option value="Значение8">
-									Haskel
-								</option>
-								
-								<option value="Значение9">
-									Clojure
-								</option>
-								
-								<option value="Значение10">
-									Prolog
-								</option>
-								
-								<option value="Значение11">
-									Scala
-								</option>
-							</select>
-						</label>
-						<br>
+							
+							<label>
+								Телефон:<br>
+								<input type="tel" placeholder="(XXX)-XXX-XXXX" name="field-tel">
+							</label>
+							<br>
 
-						Пол:<br>
-						<label>
-							<input type="radio" checked="checked" name="radio-group-1" value="Значение1">Мужской
-						</label>
-						<label>
-							<input type="radio" name="radio-group-1" value="Значение2">Женский
-						</label><br>
+							<label>
+								email:<br>
+								<input name="field-email" type="email" placeholder="Введите вашу почту">
+							</label>
+							<br>
 
-						<label>
-							<input type="checkbox" checked="checked" name="check-1">С контрактом ознакомлен (а)
-						</label><br>
+							<label>
+								Дата рождения:<br>
+								<input name="field-date" value="2019-08-13" type="date">
+							</label>
+							<br>
 
-						<input type="submit" value="Сохранить">
-					</form>
+							<label>
+								Биография:<br>
+								<textarea name="field-name-2"></textarea>
+							</label>
+							<br>
+
+							<label>
+								Любимый язык программирования:
+								<br>
+								<select name="field-name-4[]" multiple="multiple">
+									<option value="Значение1">
+										Pascal
+									</option>
+									
+									<option value="Значение2">
+										C
+									</option>
+									
+									<option value="Значение3">
+										C++
+									</option>
+									
+									<option value="Значение4">
+										JavaScript
+									</option>
+									
+									<option value="Значение5">
+										PHP
+									</option>
+									
+									<option value="Значение6">
+										Python
+									</option>
+									
+									<option value="Значение7">
+										Java
+									</option>
+									
+									<option value="Значение8">
+										Haskel
+									</option>
+									
+									<option value="Значение9">
+										Clojure
+									</option>
+									
+									<option value="Значение10">
+										Prolog
+									</option>
+									
+									<option value="Значение11">
+										Scala
+									</option>
+								</select>
+							</label>
+							<br>
+
+							Пол:<br>
+							<label>
+								<input type="radio" checked="checked" name="radio-group-1" value="Значение1">Мужской
+							</label>
+							<label>
+								<input type="radio" name="radio-group-1" value="Значение2">Женский
+							</label><br>
+
+							<label>
+								<input type="checkbox" checked="checked" name="check-1">С контрактом ознакомлен (а)
+							</label><br>
+
+							<input type="submit" value="Сохранить">
+						</form>
+					</div>
 				</div>
-			</div>
-		</main>
+			</main>
+			
+			<footer class='footer p-2'>
+				daniilscherbina ©2023
+			</footer>
+		</div>
 		
-		<footer>
-			daniilscherbina ©2023
-		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	</body>
 </html>
