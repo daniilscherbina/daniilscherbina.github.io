@@ -1,23 +1,22 @@
 
 function isValid(input) {
-	return input.value != "" && /^[0-9]+$/.test(input);
+  return input.value !== "" && (/^[0-9]+$/).test(input);
 }
 
-function onClick(event) {
-	event.preventDefault();
-	let count = document.getElementById("count");
-	if (isValid(count.value)) {
-		let book = document.getElementById("book");
-		let result = document.getElementById("result");
-		result.innerHTML = "<h3>Стоимость заказа: " + (parseInt(book.value) * parseInt(count.value)) + "р.</h3>";
-	} else {
-		alert("В поле ввода количества находятся недопустимые символы!");
-	}
+function onClick() {
+  let count = document.getElementById("count");
+  let book = document.getElementById("book");
+  let result = document.getElementById("result");
+  if (isValid(count.value)) {
+    result.innerHTML = "<h3>Стоимость заказа: " +
+      (parseInt(book.value) * parseInt(count.value)) + "р.</h3>";
+  } else {
+    result.innerHTML = "В поле ввода количества находятся" +
+    "недопустимые символы!";
+  }
 }
 
-window.addEventListener('DOMContentLoaded', function (event) {
-  console.log("DOM fully loaded and parsed");
-  
+window.addEventListener("DOMContentLoaded", function (event) {
   let b = document.getElementById("calculate");
   b.addEventListener("click", onClick);
 });
