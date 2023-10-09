@@ -3,7 +3,8 @@ function isValid(input) {
   return input.value !== "" && (/^[0-9]+$/).test(input);
 }
 
-function onClick() {
+function onClick(e) {
+  e.preventDefault();
   let count = document.getElementById("count");
   let book = document.getElementById("book");
   let result = document.getElementById("result");
@@ -14,10 +15,10 @@ function onClick() {
     result.innerHTML = "В поле ввода количества находятся" +
     "недопустимые символы!";
   }
+  return false;
 }
 
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", function (e) {
   let b = document.getElementById("calculate");
   b.addEventListener("click", onClick);
-  return false;
 });
