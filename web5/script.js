@@ -9,14 +9,14 @@ function onClick() {
   let result = document.getElementById("result");
   if (isValid(count.value)) {
     result.innerHTML = "<h3>Стоимость заказа: " +
-      (parseInt(book.value) * parseInt(count.value)) + "р.</h3>";
+    (parseInt(book.value) * parseInt(count.value)) + "р.</h3>";
   } else {
     result.innerHTML = "В поле ввода количества находятся" +
     "недопустимые символы!";
   }
 }
 
-window.addEventListener("DOMContentLoaded", function (event) {
+window.addEventListener("DOMContentLoaded", function () {
   let b = document.getElementById("calculate");
   b.addEventListener("click", onClick);
 });
