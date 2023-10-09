@@ -19,4 +19,5 @@ function onClick() {
 window.addEventListener("DOMContentLoaded", function () {
   let b = document.getElementById("calculate");
   b.addEventListener("click", onClick);
+  return false;
 });
