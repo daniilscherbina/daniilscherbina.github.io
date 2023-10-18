@@ -1,0 +1,59 @@
+<!doctype html>
+ 
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Лабораторная работа 6</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<div>
+					<h2>Лабораторная работа 6</h2>
+				</div>
+			</div>
+		</header>
+	
+		<main>
+			<form>
+				<input id="count" type="text" placeholder='Введите желаемое количество товара'>
+				<select id="book">
+					<option value="3000">Компьютерные сети (3000р шт)</option>
+					<option value="3500">Современные операционные системы (3500р шт)</option>
+					<option value="4000">Архитектура ЭВМ (4000р шт)</option>
+				</select>
+				<button id="calculate">Рассчитать стоимость</button>
+				<div id='result'></div>
+			</form>
+			<form>
+				<input id="count-1" type="text" placeholder='Введите желаемое количество товара'>
+				<div class="myradios" id="myradios">
+					<label><input type="radio" name="prod" value="1">Компьютерные сети (3000р шт)</input>
+					<label><input type="radio" name="prod" value="2">Современные операционные системы (3500р шт)</input>
+					<label><input type="radio" name="prod" value="3">Архитектура ЭВМ (4000р шт)</input>
+				</select>
+				<select id="options"  style="display: none;">
+					<option value="1">Самовывоз</option>
+					<option value="2">Курьером</option>
+					<option value="3">Почтой</option>
+				</select>
+				<div id="checkboxes" style="display: none;">
+					<label><input type="checkbox" name="prop1"> Брендовая закладка</label>
+					<label><input type="checkbox" name="prop2"> Постер</label>
+					<label><input type="checkbox" name="prop3"> Подарочная упаковка</label>
+					<label><input type="checkbox" name="prop4"> Завернуть в брендовый пакет</label>
+				</div>
+				<div id='result-1'></div>
+			</form>
+		</main>
+		
+		<footer>
+			daniilscherbina ©2023
+		</footer>
+		
+		<script src="script.js"></script>
+	</body>
+</html>

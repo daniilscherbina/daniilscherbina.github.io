@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+	color: #AAAAAA;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #363636;
+}
+
+.content {
+	max-width: 960px;
+}
+
+a {
+	color: #AAAAAA;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+a:hover {
+	border-bottom: 1px solid #AAAAAA;
+}
+
+footer {
+	background-color: #212121;
+	font-size: 20px;
+	margin-top: auto;
+	padding: 20px;
+}
+
+input {
+	padding: 10px;
+	margin: 10px 0;
+	border: 0;
+	box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+input[type=text] {
+	width:300px;
+	background-color: #BBBBBB;
+}
+
+button {
+	padding: 10px;
+	margin: 10px 0;
+	border: 0;
+	box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+	border-radius: 5px;
+	font-size: 16px;
+	color: #C4C4C4;
+	background-color: #505585;
+}
+
+select {
+  background-color: #BBBBBB;
+  background-position: right -15px;
+  background-repeat: no-repeat;
+  background-size: 30px 120px;
+  padding-right: 40px;
+  border: 1px solid $border-color;
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  
+  
+  /* CRCNA SPECIFIC */
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4e4e4e;
+  min-height: 18px;
+  
+  &:focus {
+    outline: none;
+    border-color: darken($border-color, 10%);
+    background-position: right -75px;
+  }
+  &:disabled { /* selectric */
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    cursor: default;
+    user-select: none;
+  }
+}
+
+form {
+	background: #555555;
+	margin: 30px;
+}
