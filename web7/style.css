@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+	color: #AAAAAA;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #363636;
+}
+
+.content {
+	max-width: 960px;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+footer {
+	background-color: #212121;
+	font-size: 20px;
+	margin-top: auto;
+	padding: 20px;
+}
+
+.slick-prev{
+    background:#000;
+    width:50px;
+    height:50px;
+    top:50%;
+}
+
+.slick-next{
+    background:#000;
+    width:50px;
+    height:50px;
+    top:50%;
+}
+
+ .slider__item {
+    padding: 0px 25px;
+}
+
+.slider__item img{
+    max-width: 100%;
+}
