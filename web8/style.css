@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+	color: #AAAAAA;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #363636;
+}
+
+.content {
+	max-width: 960px;
+}
+
+main {
+  padding: 10px;
+}
+
+#popup {
+  background-color: #fff;
+  padding: 20px;
+  position: fixed;
+  z-index: 9999;
+
+}
+
+footer {
+	background-color: #212121;
+	font-size: 20px;
+	margin-top: auto;
+	padding: 20px;
+}
+
+#popup input[type="text"],
+#popup input[type="email"],
+#popup input[type="tel"],
+#popup textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#popup button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#popup button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#popup label {
+  font-weight: bold;
+}
+
+.but_popup {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.but_popup:hover {
+  background-color: #45a049;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9000;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+  }
+  
+  #popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
