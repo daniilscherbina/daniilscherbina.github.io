@@ -22,6 +22,7 @@ $(document).ready(function () {
 
   const formDataLoad = JSON.parse(localStorage.getItem("formData"));
   var formDataSave;
+  var popup = document.getElementById("popup");
 
   const formUrl = "#popup";
 
@@ -32,7 +33,6 @@ $(document).ready(function () {
   }
 
   function closePopup(event) {
-    var popup = document.getElementById("popup");
     if (!popup.contains(event.target) && event.target) {
       if (event.target.id !== "but_popup") {
         popup.style.display = "none";
@@ -113,6 +113,16 @@ $(document).ready(function () {
   document.getElementById("but_popup").addEventListener("click", openPopup);
 
   loadFormData();
+
+  window.addEventListener("popstate", function (event) {
+    if (event.state !== null && event.state.popupOpen) {
+      openPopup();
+    } else {
+      popup.style.display = "none";
+      overlay.style.display = "none";
+      window.removeEventListener("click", closePopup);
+    }
+  });
 
   fullNameInput.addEventListener("blur", saveFormData);
   emailInput.addEventListener("blur", saveFormData);
