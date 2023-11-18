@@ -116,7 +116,9 @@ $(document).ready(function () {
 
   window.addEventListener("popstate", function (event) {
     if (event.state !== null && event.state.popupOpen) {
-      openPopup();
+      document.getElementById("popup").style.display = "block";
+      overlay.style.display = "block";
+      window.addEventListener("click", closePopup);
     } else {
       popup.style.display = "none";
       overlay.style.display = "none";
