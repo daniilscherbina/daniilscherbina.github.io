@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="169"
+   width="254"
+   viewBox="0 0 253.99999 169"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="3.6172746"
+     inkscape:cx="125.73702"
+     inkscape:cy="116.95282"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <rect
+     style="fill:#f4f464;fill-opacity:1;stroke-width:4.65206"
+     x="0"
+     id="rect8"
+     height="28.173656"
+     width="28.173656"
+     y="28.173681"
+     class="cls-1" />
+  <polygon
+     transform="matrix(1.5926315,0,0,1.5926315,2.2404581e-5,-3.3285992)"
+     style="fill:#f4ac2b;fill-opacity:1"
+     id="polygon20"
+     points="70.76,90.54 88.44,90.54 88.44,72.85 88.44,55.16 88.44,37.47 88.44,19.78 70.76,19.78 70.76,37.47 70.76,55.16 70.76,72.85 53.07,72.85 53.07,90.54 "
+     class="cls-1" />
+  <g
+     id="g4179"
+     transform="matrix(4.6520602,0,0,4.6520602,-32.83887,-9.9744122)">
+    <rect
+       class="cls-2"
+       x="19.171333"
+       y="2.1440849"
+       width="6.0561671"
+       height="6.0561671"
+       id="rect10"
+       style="fill:#f9e050;fill-opacity:1" />
+    <rect
+       class="cls-2"
+       x="25.227499"
+       y="8.2002516"
+       width="6.0561671"
+       height="6.0561671"
+       id="rect12"
+       style="fill:#f9e050;fill-opacity:1" />
+    <rect
+       class="cls-2"
+       x="19.171333"
+       y="14.256419"
+       width="6.0561671"
+       height="6.0561671"
+       id="rect14"
+       style="fill:#f9e050;fill-opacity:1" />
+    <rect
+       class="cls-2"
+       x="25.227499"
+       y="20.312586"
+       width="6.0561671"
+       height="6.0561671"
+       id="rect16"
+       style="fill:#f9e050;fill-opacity:1" />
+    <rect
+       class="cls-2"
+       x="19.171333"
+       y="26.368752"
+       width="6.0561671"
+       height="6.0561671"
+       id="rect18"
+       style="fill:#f9e050;fill-opacity:1" />
+    <rect
+       class="cls-2"
+       x="25.227499"
+       y="32.424919"
+       width="6.0561671"
+       height="6.0561671"
+       id="rect22"
+       style="fill:#f9e050;fill-opacity:1" />
+  </g>
+  <polygon
+     transform="matrix(1.5926315,0,0,1.5926315,2.2404581e-5,-3.3285992)"
+     class="cls-3"
+     points="141.51,55.16 141.51,72.85 141.51,90.54 159.2,90.54 159.2,72.85 159.2,55.16 159.2,37.47 159.2,19.78 141.51,19.78 141.51,37.47 "
+     id="polygon24"
+     style="fill:#f14d34;fill-opacity:1" />
+  <polygon
+     transform="matrix(1.5926315,0,0,1.5926315,2.2404581e-5,-3.3285992)"
+     class="cls-3"
+     points="88.44,108.23 106.13,108.23 123.82,108.23 141.51,108.23 141.51,90.54 123.82,90.54 106.13,90.54 106.13,72.85 106.13,55.16 106.13,37.47 106.13,19.78 123.82,19.78 141.51,19.78 141.51,2.09 123.82,2.09 106.13,2.09 88.44,2.09 70.76,2.09 70.76,19.78 88.44,19.78 88.44,37.47 88.44,55.16 88.44,72.85 88.44,90.54 70.76,90.54 70.76,108.23 "
+     id="polygon26"
+     style="fill:#f14d34;fill-opacity:1" />
+</svg>
